@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trams",
+  "info": {
+    "singularName": "tram",
+    "pluralName": "trams",
+    "displayName": "TRAM"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TENTRAM": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

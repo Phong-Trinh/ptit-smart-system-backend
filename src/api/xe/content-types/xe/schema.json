@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "xes",
+  "info": {
+    "singularName": "xe",
+    "pluralName": "xes",
+    "displayName": "Xe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BIENSO": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "SUCCHUA": {
+      "type": "integer",
+      "unique": false,
+      "required": true,
+      "default": 1
+    },
+    "TRANGTHAI": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

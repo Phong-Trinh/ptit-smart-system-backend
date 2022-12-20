@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nhanviens",
+  "info": {
+    "singularName": "nhanvien",
+    "pluralName": "nhanviens",
+    "displayName": "NHANVIEN",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HOTEN": {
+      "type": "string",
+      "required": true
+    },
+    "DIACHI": {
+      "type": "string"
+    },
+    "NGAYSINH": {
+      "type": "date"
+    },
+    "CMND": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "PASSWORD": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

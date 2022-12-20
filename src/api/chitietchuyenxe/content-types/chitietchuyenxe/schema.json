@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chitietchuyenxes",
+  "info": {
+    "singularName": "chitietchuyenxe",
+    "pluralName": "chitietchuyenxes",
+    "displayName": "CHITIETCHUYENXE"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tram": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tram.tram"
+    },
+    "tuyenxe": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tuyenxe.tuyenxe"
+    }
+  }
+}
